@@ -13,8 +13,8 @@
             <td>{{book.publisher}}</td>
             <td>{{book.writer}}</td>
             <td>
-                <a class="btn btn-success btn-sm" href="update-teacher.jsp?id=">update</a>
-                <a class="btn btn-danger btn-sm" onclick="return confirm_delete()" href="delete-teacher.jsp?id=">delete</a>
+                <a class="btn btn-success btn-sm" href="/api/library/updatebook/{id}">update</a>
+                <a class="btn btn-danger btn-sm" onclick="return confirm_delete()" href="/api/library/bookdelete/{id}">delete</a>
             </td>
         </tr>
     </table>

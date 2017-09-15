@@ -32,6 +32,9 @@ import { ViewBookComponent } from './components/admin/view-book/view-book.compon
 import { IssueBooksComponent } from './components/librarian/issue-books/issue-books.component';
 import { ReturnComponent } from './components/librarian/return/return.component';
 import { ViewIssueBooksComponent } from './components/librarian/view-issue-books/view-issue-books.component';
+import { DeleteBookComponent } from './components/admin/delete-book/delete-book.component';
+import { DeleteLibrarianComponent } from './components/admin/delete-librarian/delete-librarian.component';
+import { DeleteStudentComponent } from './components/admin/delete-student/delete-student.component';
 
 
 const appRoutes: Routes = [
@@ -73,7 +76,10 @@ const appRoutes: Routes = [
     ViewBookComponent,
     IssueBooksComponent,
     ReturnComponent,
-    ViewIssueBooksComponent
+    ViewIssueBooksComponent,
+    DeleteBookComponent,
+    DeleteLibrarianComponent,
+    DeleteStudentComponent
   ],
   imports: [
     BrowserModule,

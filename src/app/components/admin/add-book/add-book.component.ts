@@ -27,8 +27,9 @@ export class AddBookComponent implements OnInit {
   }
 
   onSubmit(){
-    console.log("form submitted" + this.form);
-    this.bookserviceService.addBooks(this.form);
+    console.log("form submitted" + this.form.value);
+    this.bookserviceService.addBooks(this.form.value)
+        .subscribe(res => {});
     console.log();
   }
 
