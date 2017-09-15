@@ -1,0 +1,26 @@
+<div>
+    <h2 class="page-header text-center">VIEW STUDENT</h2>
+
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Age</th>
+            <th>Contact</th>
+            <th>Manage Student</th>
+        </tr>
+        <tr *ngFor="let student of students">
+            <td>{{student.name}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.sub}}</td>
+            <td>{{student.age}}</td>
+            <td>{{student.contact}}</td>
+            <td>
+                <a class="btn btn-success btn-sm" href="update-teacher.jsp?id=">update</a>
+                <a class="btn btn-danger btn-sm" onclick="return confirm_delete()" href="delete-teacher.jsp?id=">delete</a>
+            </td>
+        </tr>
+    </table>
+
+</div>

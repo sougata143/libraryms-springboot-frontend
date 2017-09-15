@@ -1,0 +1,22 @@
+<div>
+    <h2 class="page-header text-center">VIEW BOOKS</h2>
+
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Book Name</th>
+            <th>Publisher</th>
+            <th>Writer</th>
+            <th>Manage Books</th>
+        </tr>
+        <tr *ngFor="let book of books">
+            <td>{{book.name}}</td>
+            <td>{{book.publisher}}</td>
+            <td>{{book.writer}}</td>
+            <td>
+                <a class="btn btn-success btn-sm" href="update-teacher.jsp?id=">update</a>
+                <a class="btn btn-danger btn-sm" onclick="return confirm_delete()" href="delete-teacher.jsp?id=">delete</a>
+            </td>
+        </tr>
+    </table>
+
+</div>

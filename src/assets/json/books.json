@@ -1,0 +1,31 @@
+[{
+        "bookid": "1001",
+        "bookname": "java",
+        "publisher": "mcgrow hill",
+        "writer": "Sougata Roy"
+    },
+    {
+        "bookid": "1002",
+        "bookname": "javaScript",
+        "publisher": "mcgrow hill",
+        "writer": "Rintu Roy"
+    },
+    {
+        "bookid": "1003",
+        "bookname": "AngularJS",
+        "publisher": "mcgrow hill",
+        "writer": "Tubai Roy"
+    },
+    {
+        "bookid": "1004",
+        "bookname": "NodeJS",
+        "publisher": "mcgrow hill",
+        "writer": "Babu Roy"
+    },
+    {
+        "bookid": "1005",
+        "bookname": "ExpressJS",
+        "publisher": "mcgrow hill",
+        "writer": "Babai Roy"
+    }
+]

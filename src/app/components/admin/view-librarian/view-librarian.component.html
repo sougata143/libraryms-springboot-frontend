@@ -1,0 +1,25 @@
+<div>
+    <h2 class="page-header text-center">VIEW LIBRARIAN</h2>
+
+    <table class="table table-hover table-bordered">
+        <tr>
+
+            <th>Librarian ID</th>
+            <th>Librarian Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Manage Librarian</th>
+        </tr>
+        <tr *ngFor="let librarian of librarians">
+            <td>{{librarian.id}}</td>
+            <td>{{librarian.name}}</td>
+            <td>{{librarian.email}}</td>
+            <td>{{librarian.mobile}}</td>
+            <td>
+                <a class="btn btn-success btn-sm" href="update-teacher.jsp?id=">update</a>
+                <a class="btn btn-danger btn-sm" onclick="return confirm_delete()" href="delete-teacher.jsp?id=">delete</a>
+            </td>
+        </tr>
+    </table>
+
+</div>

@@ -1,0 +1,21 @@
+[{
+        "studentid": "2001",
+        "studentname": "Rajrupa Sarkar",
+        "studentemail": "rajrupa@gmail.com",
+        "password": "1234",
+        "urole": "student",
+        "address": "kolkata",
+        "age": "26",
+        "sex": "female"
+    },
+    {
+        "studentid": "2002",
+        "studentname": "Moumita Das Adhikari",
+        "studentemail": "moumita@gmail.com",
+        "password": "1234",
+        "urole": "student",
+        "address": "kolkata",
+        "age": "24",
+        "sex": "female"
+    }
+]

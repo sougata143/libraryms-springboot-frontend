@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    background: yellowgreen;
+}
+
+div {
+    background: gray;
+    font-size: 15px
+}
+
+.col-lg-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white
+}

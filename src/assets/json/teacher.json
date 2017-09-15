@@ -1,0 +1,25 @@
+[{
+        "id": "4001",
+        "name": "Tapan Kumar Roy",
+        "email": "tkroy@gmail.com",
+        "password": "1234",
+        "urole": "teacher",
+        "mobile": "9732640239"
+    },
+    {
+        "id": "4002",
+        "name": "Ruma Roy",
+        "email": "rumaroy@gmail.com",
+        "password": "1234",
+        "urole": "teacher",
+        "mobile": "9609173684"
+    },
+    {
+        "id": "4003",
+        "name": "Pritha Roy",
+        "email": "pritha@gmail.com",
+        "password": "1234",
+        "urole": "teacher",
+        "mobile": "8671236479"
+    }
+]

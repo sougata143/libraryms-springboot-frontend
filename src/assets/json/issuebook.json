@@ -1,0 +1,17 @@
+[{
+        "id": "5001",
+        "name": "Java",
+        "publisher": "McGrow Hill",
+        "writer": "Sougata Roy",
+        "studentid": "2001",
+        "date": "12.07.2017"
+    },
+    {
+        "id": "5002",
+        "name": "JavaScript",
+        "publisher": "McGrow Hill",
+        "writer": "Rintu Roy",
+        "studentid": "2003",
+        "date": "14.07.2017"
+    }
+]

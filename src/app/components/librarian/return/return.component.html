@@ -1,0 +1,17 @@
+<h2 class="page-header text-center">REMOVE ISSUED BOOKS</h2>
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <label> Book ID:</label>
+                <input type="text" name="id" class="form-control" formControlName="issuebookid"><br>
+                <button type="submit" class="btn btn-warning" [disabled]="!form.valid">Remove</button>
+            </form>
+
+
+        </div>
+
+    </div>
+</div>

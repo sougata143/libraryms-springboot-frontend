@@ -1,0 +1,121 @@
+{
+    "admin": [{
+        "id": "0001",
+        "name": "Sougata Roy",
+        "email": "rsougata@gmail.com",
+        "password": "1234",
+        "urole": "admin",
+        "mobile": "97325462112"
+    }],
+    "teacher": [{
+            "id": "4001",
+            "name": "Tapan Kumar Roy",
+            "email": "tkroy@gmail.com",
+            "password": "1234",
+            "urole": "teacher",
+            "mobile": "9732640239"
+        },
+        {
+            "id": "4002",
+            "name": "Ruma Roy",
+            "email": "rumaroy@gmail.com",
+            "password": "1234",
+            "urole": "teacher",
+            "mobile": "9609173684"
+        },
+        {
+            "id": "4003",
+            "name": "Pritha Roy",
+            "email": "pritha@gmail.com",
+            "password": "1234",
+            "urole": "teacher",
+            "mobile": "8671236479"
+        }
+    ],
+    "students": [{
+            "studentid": "2001",
+            "studentname": "Rajrupa Sarkar",
+            "studentemail": "rajrupa@gmail.com",
+            "password": "1234",
+            "urole": "student",
+            "address": "kolkata",
+            "age": "26",
+            "sex": "female"
+        },
+        {
+            "studentid": "2002",
+            "studentname": "Moumita Das Adhikari",
+            "studentemail": "moumita@gmail.com",
+            "password": "1234",
+            "urole": "student",
+            "address": "kolkata",
+            "age": "24",
+            "sex": "female"
+        }
+    ],
+    "librarian": [{
+            "id": "3001",
+            "name": "Bhola Nath Roy",
+            "email": "bnroy@gmail.com",
+            "password": "1234",
+            "urole": "librarian",
+            "mobile": "9733531713"
+        },
+        {
+            "id": "3002",
+            "name": "Sourav Ghoshal",
+            "email": "sourav@gmail.com",
+            "password": "1234",
+            "urole": "librarian",
+            "mobile": "7001231429"
+        }
+    ],
+    "books": [{
+            "bookid": "1001",
+            "bookname": "java",
+            "publisher": "mcgrow hill",
+            "writer": "Sougata Roy"
+        },
+        {
+            "bookid": "1002",
+            "bookname": "javaScript",
+            "publisher": "mcgrow hill",
+            "writer": "Rintu Roy"
+        },
+        {
+            "bookid": "1003",
+            "bookname": "AngularJS",
+            "publisher": "mcgrow hill",
+            "writer": "Tubai Roy"
+        },
+        {
+            "bookid": "1004",
+            "bookname": "NodeJS",
+            "publisher": "mcgrow hill",
+            "writer": "Babu Roy"
+        },
+        {
+            "bookid": "1005",
+            "bookname": "ExpressJS",
+            "publisher": "mcgrow hill",
+            "writer": "Babai Roy"
+        }
+    ],
+    "issuebooks": [{
+            "id": "5001",
+            "name": "Java",
+            "publisher": "McGrow Hill",
+            "writer": "Sougata Roy",
+            "studentid": "2001",
+            "date": "12.07.2017"
+        },
+        {
+            "id": "5002",
+            "name": "JavaScript",
+            "publisher": "McGrow Hill",
+            "writer": "Rintu Roy",
+            "studentid": "2003",
+            "date": "14.07.2017"
+        }
+    ]
+}

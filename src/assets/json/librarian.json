@@ -1,0 +1,17 @@
+[{
+        "id": "3001",
+        "name": "Bhola Nath Roy",
+        "email": "bnroy@gmail.com",
+        "password": "1234",
+        "urole": "librarian",
+        "mobile": "9733531713"
+    },
+    {
+        "id": "3002",
+        "name": "Sourav Ghoshal",
+        "email": "sourav@gmail.com",
+        "password": "1234",
+        "urole": "librarian",
+        "mobile": "7001231429"
+    }
+]
