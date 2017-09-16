@@ -3,6 +3,8 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/Rx';
 
+import { Book } from "../model/Book";
+
 @Injectable()
 export class BookserviceService {
 
@@ -16,8 +18,8 @@ export class BookserviceService {
       .map((res) => res.json());
   }
 
-  addBooks(books){
-    return this.http.post("/api/library/booksave", JSON.stringify(books), )
+  addBooks(book:Book){
+    return this.http.post("/api/library/booksave", JSON.stringify(book))
     .map(res => res.json());
   }
 
@@ -29,5 +31,5 @@ export class BookserviceService {
     return this.http.delete("/api/library/bookdelete{id}");
   }
 
-  
+
 }
